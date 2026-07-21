@@ -124,7 +124,5 @@ Skill 검증은 저장소의 두 Skill 본문 일치 검사와 Codex Skill 기�
 
 ## 문서
 
-- `STATUS.md` — 현재 상태와 다음 작업
 - `설계.md` — 데이터·규칙 기반 보고서·MCP·Skill 경계
-- `DECISIONS.md` — 주요 결정과 대체된 과거 결정
 - `AGENTS.md`, `CLAUDE.md` — 에이전트별 저장소 진입점
