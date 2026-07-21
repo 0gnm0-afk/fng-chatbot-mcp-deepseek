@@ -1,0 +1,4 @@
+interface:
+  display_name: "Fear & Greed Report"
+  short_description: "Verify sentiment, DeepSeek context, and Telegram preview"
+  default_prompt: "Use $fear-greed-report to inspect the latest market sentiment report, verify any DeepSeek explanation, and preview it before any Telegram send."

@@ -1,0 +1,65 @@
+{
+  "fear_and_greed": {
+    "score": "37.0",
+    "rating": "fear",
+    "timestamp": "1767225600000",
+    "previous_close": "41.0",
+    "previous_1_week": 46,
+    "previous_1_month": 32.0,
+    "previous_1_year": "74"
+  },
+  "market_momentum_sp500": {
+    "score": 34,
+    "rating": "fear",
+    "timestamp": 1767225660,
+    "data": [{"x": 1, "y": 33}, {"x": 2, "y": 34}]
+  },
+  "market_momentum_sp125": {
+    "score": 50,
+    "rating": "neutral",
+    "timestamp": "2026-01-01T00:01:00Z",
+    "data": [{"x": 1, "y": 49}, {"x": 2, "y": 50}]
+  },
+  "stock_price_strength": {
+    "score": 22,
+    "rating": "extreme fear",
+    "timestamp": "2026-01-01T00:02:00+00:00",
+    "data": [{"x": 1, "y": 21}, {"x": 2, "y": 22}]
+  },
+  "stock_price_breadth": {
+    "score": 41,
+    "rating": "fear",
+    "timestamp": "2026-01-01T00:03:00Z",
+    "data": [{"x": 1, "y": 40}, {"x": 2, "y": 41}]
+  },
+  "put_call_options": {
+    "score": 63,
+    "rating": "greed",
+    "timestamp": "2026-01-01T00:04:00Z",
+    "data": [{"x": 1, "y": 62}, {"x": 2, "y": 63}]
+  },
+  "market_volatility_vix": {
+    "score": 58,
+    "rating": "neutral",
+    "timestamp": "2026-01-01T00:05:00Z",
+    "data": [{"x": 1, "y": 57}, {"x": 2, "y": 58}]
+  },
+  "market_volatility_vix_50": {
+    "score": 50,
+    "rating": "neutral",
+    "timestamp": "2026-01-01T00:05:00Z",
+    "data": [{"x": 1, "y": 50}, {"x": 2, "y": 50}]
+  },
+  "safe_haven_demand": {
+    "score": 29,
+    "rating": "fear",
+    "timestamp": "2026-01-01T00:06:00Z",
+    "data": [{"x": 1, "y": 28}, {"x": 2, "y": 29}]
+  },
+  "junk_bond_demand": {
+    "score": 47,
+    "rating": "neutral",
+    "timestamp": "2026-01-01T00:07:00Z",
+    "data": [{"x": 1, "y": 46}, {"x": 2, "y": 47}]
+  }
+}
