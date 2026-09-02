@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "fng-chatbot": {
+      "type": "stdio",
+      "command": "${CLAUDE_PROJECT_DIR:-.}/.venv/Scripts/python.exe",
+      "args": ["-m", "fng_chatbot.mcp_server"],
+      "env": {
+        "NVIDIA_API_KEY": "${NVIDIA_API_KEY:-}",
+        "TELEGRAM_BOT_TOKEN": "${TELEGRAM_BOT_TOKEN:-}",
+        "TELEGRAM_CHAT_ID": "${TELEGRAM_CHAT_ID:-}",
+        "MCP_ALLOW_TELEGRAM_SEND": "${MCP_ALLOW_TELEGRAM_SEND:-true}",
+        "CNN_FNG_CACHE_TTL_SECONDS": "${CNN_FNG_CACHE_TTL_SECONDS:-300}"
+      }
+    }
+  }
+}

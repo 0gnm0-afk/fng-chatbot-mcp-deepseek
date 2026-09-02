@@ -1,0 +1,18 @@
+[mcp_servers.fng_chatbot]
+command = "../.venv/Scripts/python.exe"
+args = ["-m", "fng_chatbot.mcp_server"]
+cwd = ".."
+env_vars = [
+    "NVIDIA_API_KEY",
+    "TELEGRAM_BOT_TOKEN",
+    "TELEGRAM_CHAT_ID",
+    "MCP_ALLOW_TELEGRAM_SEND",
+    "CNN_FNG_CACHE_TTL_SECONDS",
+]
+startup_timeout_sec = 20
+tool_timeout_sec = 90
+required = false
+default_tools_approval_mode = "writes"
+
+[mcp_servers.fng_chatbot.tools.send_telegram_report]
+approval_mode = "auto"

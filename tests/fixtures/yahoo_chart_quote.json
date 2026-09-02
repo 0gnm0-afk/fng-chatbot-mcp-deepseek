@@ -1,0 +1,16 @@
+{
+  "chart": {
+    "result": [
+      {
+        "meta": {
+          "currency": "USD",
+          "symbol": "TEST",
+          "regularMarketPrice": 1425.5,
+          "chartPreviousClose": 1400.0,
+          "regularMarketTime": 1784505600
+        }
+      }
+    ],
+    "error": null
+  }
+}
